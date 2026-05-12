@@ -6,4 +6,9 @@ var
      escreva("Mensagem: ")
      leia(mensagem)
      enquanto mensagem <> "s" faca
-     escreva
+     escreva(mensagem)
+     escreva(" Próxima mensagem [s para sair]: ")
+     leia(mensagem)
+     fimenquanto
+     escreva(" Saiu do laço!")
+     fimalgoritmo
