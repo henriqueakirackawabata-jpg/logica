@@ -8,8 +8,12 @@ inicio
   para i de 1 ate 10 faca
    escreval("------------------")
    escreval("Tabuada do", i)
-   escreval("------------------")
    para j de 1 ate 10 faca
-     escreval(i, " x ", i " = ", i * j)
+     escreval(i, " x ", j " = ", i * j)
+   fimpara
   fimpara
-fimalgoritmo
+
+
+
+
+ fimalgoritmo
