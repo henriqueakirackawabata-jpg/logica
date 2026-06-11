@@ -1,0 +1,13 @@
+algoritmo "desenhaQuadrado"
+var
+    linha, coluna, numero: inteiro
+inicio
+ escreval("escreva um numero para definir a largura do quadrado: ")
+ leia(numero)
+    para coluna de 1 ate numero faca
+        para linha de 1 ate numero faca
+            escreva("*")
+        fimpara
+    escreval("")
+    fimpara
+fimalgoritmo
