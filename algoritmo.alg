@@ -1,14 +1,14 @@
-algoritmo "total_produtos"
+algoritmo "Laços de repetiçao"
 var
-   total_acumulado: real
-   valor_produto: real
-   contador: inteiro
-inicio
-  total_acumulado <- 0
-  para contador de 1 ate 3 faca
-    escreva(" Digite o produto: ", contador)
-    leia(valor_produto)
-    total_acumulado <- total_acumulado + valor_produto
-  fimpara
-  escreva(" A soma dos produtos é R$ ", total_acumulado)
-fimalgoritmo
+   mensagem: caracter
+
+   inicio
+     escreva("Mensagem: ")
+     leia(mensagem)
+     enquanto mensagem <> "s" faca
+     escreva(mensagem)
+     escreva(" Próxima mensagem [s para sair]: ")
+     leia(mensagem)
+     fimenquanto
+     escreva(" Saiu do laço!")
+     fimalgoritmo
